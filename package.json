@@ -5,7 +5,7 @@
   "author": "ItzCrazyKns",
   "scripts": {
     "start": "npm run db:push && node dist/app.js",
-    "build": "tsc",
+    "build": "next build",
     "dev": "nodemon src/app.ts",
     "db:push": "drizzle-kit push sqlite",
     "format": "prettier . --check",
@@ -38,6 +38,9 @@
     "langchain": "^0.1.30",
     "winston": "^3.13.0",
     "ws": "^8.17.1",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "next": "^12.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
