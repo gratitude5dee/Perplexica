@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "ItzCrazyKns",
   "scripts": {
-    "start": "npm run db:push && node dist/app.js",
+    "start": "yarn run db:push && node dist/app.js",
     "build": "next build",
     "dev": "nodemon src/app.ts",
     "db:push": "drizzle-kit push sqlite",
